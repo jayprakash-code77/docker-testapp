@@ -1,0 +1,9 @@
+// To create the container using the .yaml file 
+1) docker compose -f fileName.yaml up -d        👉 for creating the container using .yaml file.
+2) docker compose -f fileName.yaml down    👉 for deletingm the container using .yaml file.
+
+
+
+//Docker file, for creating the images
+1) docker build -t imagesName:tag(1.0) .
+

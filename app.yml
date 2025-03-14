@@ -1,0 +1,13 @@
+services:
+  nodeapplication:
+    image: youcodeyourownlife/nodeapplication:latest
+    container_name: tutornodeapp
+    restart: always
+    ports:
+      - "5050:5050"
+    networks:
+      - mongo-network
+
+networks:
+  mongo-network:
+    external: true  
